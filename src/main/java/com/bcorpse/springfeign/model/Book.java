@@ -11,6 +11,14 @@ public class Book {
 
     }
 
+    public Book(String isbn,String author,String title,String synopsis,String language){
+        this.setIsbn(isbn);
+        this.setAuthor(author);
+        this.setTitle(title);
+        this.setSynopsis(synopsis);
+        this.setLanguage(language);
+    }
+
     public String getIsbn() {
         return isbn;
     }

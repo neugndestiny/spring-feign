@@ -1,0 +1,5 @@
+/Users/socool/Documents/CodeWork/Java/MySpringBootTrain/spring-feign/src/main/java/com/bcorpse/springfeign/model/BookResource.java
+/Users/socool/Documents/CodeWork/Java/MySpringBootTrain/spring-feign/src/main/java/com/bcorpse/springfeign/model/Book.java
+/Users/socool/Documents/CodeWork/Java/MySpringBootTrain/spring-feign/src/main/java/com/bcorpse/springfeign/client/BookClient.java
+/Users/socool/Documents/CodeWork/Java/MySpringBootTrain/spring-feign/src/main/java/com/bcorpse/springfeign/SpringFeignApplication.java
+/Users/socool/Documents/CodeWork/Java/MySpringBootTrain/spring-feign/src/main/java/com/bcorpse/springfeign/controller/BookControllerFeignClientBuilder.java
