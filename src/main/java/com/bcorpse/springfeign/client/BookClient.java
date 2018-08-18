@@ -5,10 +5,8 @@ import com.bcorpse.springfeign.model.BookResource;
 import feign.Headers;
 import feign.Param;
 import feign.RequestLine;
-import org.springframework.stereotype.Component;
 
 import java.util.List;
-
 
 public interface BookClient {
     @RequestLine("GET /{isbn}")

@@ -7,8 +7,9 @@ import feign.gson.GsonDecoder;
 import feign.gson.GsonEncoder;
 import feign.okhttp.OkHttpClient;
 import feign.slf4j.Slf4jLogger;
+import lombok.Getter;
 
-
+@Getter
 public class BookControllerFeignClientBuilder {
     private BookClient bookClient = createClient(BookClient.class, "http://localhost:8081/api/books");
 
@@ -28,9 +29,5 @@ public class BookControllerFeignClientBuilder {
                 .logger(new Slf4jLogger(type))
                 .logLevel(Logger.Level.FULL)
                 .target(type, uri);
-    }
-
-    public BookClient getBookClient() {
-        return bookClient;
     }
 }
